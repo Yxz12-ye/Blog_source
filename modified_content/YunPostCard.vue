@@ -102,6 +102,7 @@ const postTitleClass = computed(() => {
   // max-w-$yun-post-card-max-width
   // max-width: calc(var(--yun-post-card-max-width) * 1.5 + 2rem);
   width: 100%;
+  padding-bottom: 20px;
 
   &:hover {
     text-decoration: none;
