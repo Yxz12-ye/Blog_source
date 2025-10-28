@@ -3,11 +3,17 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://valaxy.site/',
   lang: 'zh-CN',
-  title: 'Valaxy Theme Yun',
+  title: '关于本站❤️',
   author: {
-    name: '云游君',
+    name: 'Yexkr',
+    avatar: 'https://pic1.imgdb.cn/item/683a6b0758cb8da5c81e771d.jpg',
+    status: {
+      emoji: '🤔',
+      message: 'Thinking...',
+    }
   },
-  description: 'Valaxy Theme Yun Preview.',
+  subtitle: '继服务器跑路, 电脑被格后重新搭建的博客',
+  description: '这里是我的个人博客, 文章在下方哦😚',
   social: [
     {
       name: 'RSS',
