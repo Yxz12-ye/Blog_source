@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://valaxy.site/',
+  url: 'https://blog.yexkr.top/',
   lang: 'zh-CN',
   title: '关于本站❤️',
   author: {

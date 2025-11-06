@@ -107,6 +107,20 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/markdown_editor_design': RouteRecordInfo<
+      '/posts/markdown_editor_design',
+      '/posts/markdown_editor_design',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/ms_word_preium': RouteRecordInfo<
+      '/posts/ms_word_preium',
+      '/posts/ms_word_preium',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/tags/': RouteRecordInfo<
       '/tags/',
       '/tags',
@@ -196,6 +210,18 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/hello-valaxy.md': {
       routes:
         | '/posts/hello-valaxy'
+      views:
+        | never
+    }
+    'pages/posts/markdown_editor_design.md': {
+      routes:
+        | '/posts/markdown_editor_design'
+      views:
+        | never
+    }
+    'pages/posts/ms_word_preium.md': {
+      routes:
+        | '/posts/ms_word_preium'
       views:
         | never
     }
