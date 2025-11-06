@@ -28,11 +28,18 @@ export default defineSiteConfig({
       color: '#6e5494',
     },
     {
+      name: 'link',
+      link: '/links/',
+      icon: 'i-ri-team-line',
+      color: '#3f8aecff',
+    },
+    {
       name: 'Travelling',
       link: 'https://www.travellings.cn/go.html',
       icon: 'i-ri-train-line',
       color: 'var(--va-c-text)',
     },
+    
   ],
 
   search: {
@@ -42,5 +49,8 @@ export default defineSiteConfig({
   sponsor: {
     enable: true,
     title: '感谢你的喜欢!',
+  },
+  encrypt: {
+    enable: true,
   },
 })
