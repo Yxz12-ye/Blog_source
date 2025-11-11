@@ -72,6 +72,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/festival/DoubleEleven/de2025': RouteRecordInfo<
+      '/festival/DoubleEleven/de2025',
+      '/festival/DoubleEleven/de2025',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/links/': RouteRecordInfo<
       '/links/',
       '/links',
@@ -93,16 +100,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/about_recently_1': RouteRecordInfo<
-      '/posts/about_recently_1',
-      '/posts/about_recently_1',
+    '/posts/2025_game': RouteRecordInfo<
+      '/posts/2025_game',
+      '/posts/2025_game',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/hello-valaxy': RouteRecordInfo<
-      '/posts/hello-valaxy',
-      '/posts/hello-valaxy',
+    '/posts/about_recently_1': RouteRecordInfo<
+      '/posts/about_recently_1',
+      '/posts/about_recently_1',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -117,6 +124,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/ms_word_preium': RouteRecordInfo<
       '/posts/ms_word_preium',
       '/posts/ms_word_preium',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/qt_and_webview': RouteRecordInfo<
+      '/posts/qt_and_webview',
+      '/posts/qt_and_webview',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -183,6 +197,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/festival/DoubleEleven/de2025.md': {
+      routes:
+        | '/festival/DoubleEleven/de2025'
+      views:
+        | never
+    }
     'pages/links/index.md': {
       routes:
         | '/links/'
@@ -201,15 +221,15 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/about_recently_1.md': {
+    'pages/posts/2025_game.md': {
       routes:
-        | '/posts/about_recently_1'
+        | '/posts/2025_game'
       views:
         | never
     }
-    'pages/posts/hello-valaxy.md': {
+    'pages/posts/about_recently_1.md': {
       routes:
-        | '/posts/hello-valaxy'
+        | '/posts/about_recently_1'
       views:
         | never
     }
@@ -222,6 +242,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/ms_word_preium.md': {
       routes:
         | '/posts/ms_word_preium'
+      views:
+        | never
+    }
+    'pages/posts/qt_and_webview.md': {
+      routes:
+        | '/posts/qt_and_webview'
       views:
         | never
     }
