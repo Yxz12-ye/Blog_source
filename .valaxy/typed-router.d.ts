@@ -135,6 +135,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/Unity游戏CodeRegistration和MetadataRegistration的获取': RouteRecordInfo<
+      '/posts/Unity游戏CodeRegistration和MetadataRegistration的获取',
+      '/posts/Unity游戏CodeRegistration和MetadataRegistration的获取',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/tags/': RouteRecordInfo<
       '/tags/',
       '/tags',
@@ -248,6 +255,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/qt_and_webview.md': {
       routes:
         | '/posts/qt_and_webview'
+      views:
+        | never
+    }
+    'pages/posts/Unity游戏CodeRegistration和MetadataRegistration的获取.md': {
+      routes:
+        | '/posts/Unity游戏CodeRegistration和MetadataRegistration的获取'
       views:
         | never
     }
