@@ -2,7 +2,6 @@
 title: MarkDown编辑器的设计
 data: 2025-10-28 21:10:00
 updated: 2025-10-28 21:10:00
-password: valaxy
 categories:
  - 技术
 tags:
@@ -14,7 +13,7 @@ tags:
 
 ## 想法
 
-写个Markdown编辑器, 练练手, 看看自己到底了解Qt有多少
+咕咕咕
 
 ## 库
 
@@ -77,3 +76,5 @@ Qt+cmark-gfm
 好耶是新架构, 说实话感觉我都没接触到**MVC**架构的精髓
 
 不过我自己基本没什么用成型架构编写过Qt应用(~~其实也没写过多少Qt~~), 基本上就是往`main`函数堆(参考基于Slint和C++的音乐播放器, `main`函数写成答辩了)
+
+代码已经开源, [仓库地址](https://github.com/Yxz12-ye/md_editor)
