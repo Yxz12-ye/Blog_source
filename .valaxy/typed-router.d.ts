@@ -72,6 +72,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/festival/Christmas/ch2025': RouteRecordInfo<
+      '/festival/Christmas/ch2025',
+      '/festival/Christmas/ch2025',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/festival/DoubleEleven/de2025': RouteRecordInfo<
       '/festival/DoubleEleven/de2025',
       '/festival/DoubleEleven/de2025',
@@ -142,6 +149,20 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/从零开始学QtQuick_1': RouteRecordInfo<
+      '/posts/从零开始学QtQuick_1',
+      '/posts/从零开始学QtQuick_1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/基于DCTF-CNN的射频指纹识别': RouteRecordInfo<
+      '/posts/基于DCTF-CNN的射频指纹识别',
+      '/posts/基于DCTF-CNN的射频指纹识别',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/tags/': RouteRecordInfo<
       '/tags/',
       '/tags',
@@ -204,6 +225,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/festival/Christmas/ch2025.md': {
+      routes:
+        | '/festival/Christmas/ch2025'
+      views:
+        | never
+    }
     'pages/festival/DoubleEleven/de2025.md': {
       routes:
         | '/festival/DoubleEleven/de2025'
@@ -261,6 +288,18 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/Unity游戏CodeRegistration和MetadataRegistration的获取.md': {
       routes:
         | '/posts/Unity游戏CodeRegistration和MetadataRegistration的获取'
+      views:
+        | never
+    }
+    'pages/posts/从零开始学QtQuick_1.md': {
+      routes:
+        | '/posts/从零开始学QtQuick_1'
+      views:
+        | never
+    }
+    'pages/posts/基于DCTF-CNN的射频指纹识别.md': {
+      routes:
+        | '/posts/基于DCTF-CNN的射频指纹识别'
       views:
         | never
     }

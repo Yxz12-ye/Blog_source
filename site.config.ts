@@ -1,4 +1,6 @@
 import { defineSiteConfig } from 'valaxy'
+import { defineConfig } from 'vite'
+import fs from 'fs'
 
 export default defineSiteConfig({
   url: 'https://blog.yexkr.top/',
