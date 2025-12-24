@@ -107,58 +107,58 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/2025_game': RouteRecordInfo<
-      '/posts/2025_game',
-      '/posts/2025_game',
+    '/posts/2025/2025_game': RouteRecordInfo<
+      '/posts/2025/2025_game',
+      '/posts/2025/2025_game',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/about_recently_1': RouteRecordInfo<
-      '/posts/about_recently_1',
-      '/posts/about_recently_1',
+    '/posts/2025/about_recently_1': RouteRecordInfo<
+      '/posts/2025/about_recently_1',
+      '/posts/2025/about_recently_1',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/markdown_editor_design': RouteRecordInfo<
-      '/posts/markdown_editor_design',
-      '/posts/markdown_editor_design',
+    '/posts/2025/markdown_editor_design': RouteRecordInfo<
+      '/posts/2025/markdown_editor_design',
+      '/posts/2025/markdown_editor_design',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/ms_word_preium': RouteRecordInfo<
-      '/posts/ms_word_preium',
-      '/posts/ms_word_preium',
+    '/posts/2025/ms_word_preium': RouteRecordInfo<
+      '/posts/2025/ms_word_preium',
+      '/posts/2025/ms_word_preium',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/qt_and_webview': RouteRecordInfo<
-      '/posts/qt_and_webview',
-      '/posts/qt_and_webview',
+    '/posts/2025/qt_and_webview': RouteRecordInfo<
+      '/posts/2025/qt_and_webview',
+      '/posts/2025/qt_and_webview',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/Unity游戏CodeRegistration和MetadataRegistration的获取': RouteRecordInfo<
-      '/posts/Unity游戏CodeRegistration和MetadataRegistration的获取',
-      '/posts/Unity游戏CodeRegistration和MetadataRegistration的获取',
+    '/posts/2025/Unity游戏CodeRegistration和MetadataRegistration的获取': RouteRecordInfo<
+      '/posts/2025/Unity游戏CodeRegistration和MetadataRegistration的获取',
+      '/posts/2025/Unity游戏CodeRegistration和MetadataRegistration的获取',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/从零开始学QtQuick_1': RouteRecordInfo<
-      '/posts/从零开始学QtQuick_1',
-      '/posts/从零开始学QtQuick_1',
+    '/posts/2025/从零开始学QtQuick_1': RouteRecordInfo<
+      '/posts/2025/从零开始学QtQuick_1',
+      '/posts/2025/从零开始学QtQuick_1',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/基于DCTF-CNN的射频指纹识别': RouteRecordInfo<
-      '/posts/基于DCTF-CNN的射频指纹识别',
-      '/posts/基于DCTF-CNN的射频指纹识别',
+    '/posts/2025/基于DCTF-CNN的射频指纹识别': RouteRecordInfo<
+      '/posts/2025/基于DCTF-CNN的射频指纹识别',
+      '/posts/2025/基于DCTF-CNN的射频指纹识别',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -255,51 +255,51 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/2025_game.md': {
+    'pages/posts/2025/2025_game.md': {
       routes:
-        | '/posts/2025_game'
+        | '/posts/2025/2025_game'
       views:
         | never
     }
-    'pages/posts/about_recently_1.md': {
+    'pages/posts/2025/about_recently_1.md': {
       routes:
-        | '/posts/about_recently_1'
+        | '/posts/2025/about_recently_1'
       views:
         | never
     }
-    'pages/posts/markdown_editor_design.md': {
+    'pages/posts/2025/markdown_editor_design.md': {
       routes:
-        | '/posts/markdown_editor_design'
+        | '/posts/2025/markdown_editor_design'
       views:
         | never
     }
-    'pages/posts/ms_word_preium.md': {
+    'pages/posts/2025/ms_word_preium.md': {
       routes:
-        | '/posts/ms_word_preium'
+        | '/posts/2025/ms_word_preium'
       views:
         | never
     }
-    'pages/posts/qt_and_webview.md': {
+    'pages/posts/2025/qt_and_webview.md': {
       routes:
-        | '/posts/qt_and_webview'
+        | '/posts/2025/qt_and_webview'
       views:
         | never
     }
-    'pages/posts/Unity游戏CodeRegistration和MetadataRegistration的获取.md': {
+    'pages/posts/2025/Unity游戏CodeRegistration和MetadataRegistration的获取.md': {
       routes:
-        | '/posts/Unity游戏CodeRegistration和MetadataRegistration的获取'
+        | '/posts/2025/Unity游戏CodeRegistration和MetadataRegistration的获取'
       views:
         | never
     }
-    'pages/posts/从零开始学QtQuick_1.md': {
+    'pages/posts/2025/从零开始学QtQuick_1.md': {
       routes:
-        | '/posts/从零开始学QtQuick_1'
+        | '/posts/2025/从零开始学QtQuick_1'
       views:
         | never
     }
-    'pages/posts/基于DCTF-CNN的射频指纹识别.md': {
+    'pages/posts/2025/基于DCTF-CNN的射频指纹识别.md': {
       routes:
-        | '/posts/基于DCTF-CNN的射频指纹识别'
+        | '/posts/2025/基于DCTF-CNN的射频指纹识别'
       views:
         | never
     }

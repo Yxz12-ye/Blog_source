@@ -1,6 +1,6 @@
 ---
 title: CodeRegistration和MetadataRegistration的获取
-data: 2025-11-16 20:02:00
+date: 2025-11-16 20:02:00
 updated: 2025-11-16 20:02:00
 categories:
  - 技术
