@@ -121,6 +121,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/2025/Json序列化的实现': RouteRecordInfo<
+      '/posts/2025/Json序列化的实现',
+      '/posts/2025/Json序列化的实现',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/2025/markdown_editor_design': RouteRecordInfo<
       '/posts/2025/markdown_editor_design',
       '/posts/2025/markdown_editor_design',
@@ -264,6 +271,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/2025/about_recently_1.md': {
       routes:
         | '/posts/2025/about_recently_1'
+      views:
+        | never
+    }
+    'pages/posts/2025/Json序列化的实现.md': {
+      routes:
+        | '/posts/2025/Json序列化的实现'
       views:
         | never
     }

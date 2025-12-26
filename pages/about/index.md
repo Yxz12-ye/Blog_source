@@ -2,12 +2,6 @@
 title: 自述
 ---
 
-![WakaTime](https://camo.githubusercontent.com/d65239076d73dd0e816d5b029eb9e26a69a4d04c2000429fcadfbddc6c56cc95/687474703a2f2f696d672e736869656c64732e696f2f62616467652f436f646525323054696d652d3925323068727325323033302532306d696e732d626c7565)
-
-(其实才刚用`WakaTime`, 不过这Waka把我的私有仓库都展示了....)
-
-贡献图就不放了, 因为也没多少贡献
-
 ## 技术栈
 
 💻 Programming Languages

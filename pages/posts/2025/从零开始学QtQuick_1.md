@@ -35,6 +35,7 @@ public:
 };
 
 ```
+<!-- more -->
 
 `MyQmlClass.cpp`
 
