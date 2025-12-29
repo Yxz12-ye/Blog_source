@@ -121,6 +121,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/2025/C++右值引用': RouteRecordInfo<
+      '/posts/2025/C++右值引用',
+      '/posts/2025/C++右值引用',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/2025/Json序列化的实现': RouteRecordInfo<
       '/posts/2025/Json序列化的实现',
       '/posts/2025/Json序列化的实现',
@@ -271,6 +278,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/2025/about_recently_1.md': {
       routes:
         | '/posts/2025/about_recently_1'
+      views:
+        | never
+    }
+    'pages/posts/2025/C++右值引用.md': {
+      routes:
+        | '/posts/2025/C++右值引用'
       views:
         | never
     }
