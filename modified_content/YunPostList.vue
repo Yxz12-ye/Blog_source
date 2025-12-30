@@ -42,7 +42,7 @@ const displayedPosts = computed(() =>
     </div>
     
     <!-- 侧边栏区域 -->
-    <div class="lt-lg:hidden justify-center yun-side-card">
+    <div class="lt-lg:hidden justify-center yun-sidebar-sticky">
       <YunSidebarCard />
     </div>
   </div>
@@ -58,7 +58,39 @@ const displayedPosts = computed(() =>
 .yun-post-list {
   gap: 0 !important;
 }
-.yun-side-card {
+
+.yun-sidebar-sticky {
   padding-right: 10%;
+  position: sticky;
+  top: 20px; /* 距离顶部的距离，可以调整 */
+  align-self: flex-start; /* 顶部对齐 */
+  height: fit-content; /* 高度自适应内容 */
+  max-height: calc(100vh - 40px); /* 最大高度，防止超出视口 */
+  overflow-y: auto; /* 如果内容过多，允许滚动 */
+}
+
+/* 可选：添加滚动时的阴影效果 */
+.yun-sidebar-sticky.scrolled {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+/* 响应式设计 */
+@media (max-width: 1024px) {
+  .yun-sidebar-sticky {
+    display: none; /* 在小于lg的屏幕上隐藏 */
+  }
+}
+
+@media (min-width: 1200px) {
+  .yun-sidebar-sticky {
+    top: 30px; /* 在大屏幕上增加顶部距离 */
+  }
+}
+
+/* 如果需要，可以添加滚动监听效果 */
+.yun-sidebar-sticky {
+  transition: all 0.3s ease;
 }
 </style>
