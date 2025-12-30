@@ -121,16 +121,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/2025/C++右值引用': RouteRecordInfo<
-      '/posts/2025/C++右值引用',
-      '/posts/2025/C++右值引用',
+    '/posts/2025/C++_rvalue_reference': RouteRecordInfo<
+      '/posts/2025/C++_rvalue_reference',
+      '/posts/2025/C++_rvalue_reference',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/2025/Json序列化的实现': RouteRecordInfo<
-      '/posts/2025/Json序列化的实现',
-      '/posts/2025/Json序列化的实现',
+    '/posts/2025/Json_serialization': RouteRecordInfo<
+      '/posts/2025/Json_serialization',
+      '/posts/2025/Json_serialization',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -156,23 +156,23 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/2025/Unity游戏CodeRegistration和MetadataRegistration的获取': RouteRecordInfo<
-      '/posts/2025/Unity游戏CodeRegistration和MetadataRegistration的获取',
-      '/posts/2025/Unity游戏CodeRegistration和MetadataRegistration的获取',
+    '/posts/2025/QtQuick_study_1': RouteRecordInfo<
+      '/posts/2025/QtQuick_study_1',
+      '/posts/2025/QtQuick_study_1',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/2025/从零开始学QtQuick_1': RouteRecordInfo<
-      '/posts/2025/从零开始学QtQuick_1',
-      '/posts/2025/从零开始学QtQuick_1',
+    '/posts/2025/RFF_Based_on_DCTFT': RouteRecordInfo<
+      '/posts/2025/RFF_Based_on_DCTFT',
+      '/posts/2025/RFF_Based_on_DCTFT',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/2025/基于DCTF-CNN的射频指纹识别': RouteRecordInfo<
-      '/posts/2025/基于DCTF-CNN的射频指纹识别',
-      '/posts/2025/基于DCTF-CNN的射频指纹识别',
+    '/posts/2025/Unity_game_get_CodeRegistration_and_MetadataRegistration': RouteRecordInfo<
+      '/posts/2025/Unity_game_get_CodeRegistration_and_MetadataRegistration',
+      '/posts/2025/Unity_game_get_CodeRegistration_and_MetadataRegistration',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -281,15 +281,15 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/2025/C++右值引用.md': {
+    'pages/posts/2025/C++_rvalue_reference.md': {
       routes:
-        | '/posts/2025/C++右值引用'
+        | '/posts/2025/C++_rvalue_reference'
       views:
         | never
     }
-    'pages/posts/2025/Json序列化的实现.md': {
+    'pages/posts/2025/Json_serialization.md': {
       routes:
-        | '/posts/2025/Json序列化的实现'
+        | '/posts/2025/Json_serialization'
       views:
         | never
     }
@@ -311,21 +311,21 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/2025/Unity游戏CodeRegistration和MetadataRegistration的获取.md': {
+    'pages/posts/2025/QtQuick_study_1.md': {
       routes:
-        | '/posts/2025/Unity游戏CodeRegistration和MetadataRegistration的获取'
+        | '/posts/2025/QtQuick_study_1'
       views:
         | never
     }
-    'pages/posts/2025/从零开始学QtQuick_1.md': {
+    'pages/posts/2025/RFF_Based_on_DCTFT.md': {
       routes:
-        | '/posts/2025/从零开始学QtQuick_1'
+        | '/posts/2025/RFF_Based_on_DCTFT'
       views:
         | never
     }
-    'pages/posts/2025/基于DCTF-CNN的射频指纹识别.md': {
+    'pages/posts/2025/Unity_game_get_CodeRegistration_and_MetadataRegistration.md': {
       routes:
-        | '/posts/2025/基于DCTF-CNN的射频指纹识别'
+        | '/posts/2025/Unity_game_get_CodeRegistration_and_MetadataRegistration'
       views:
         | never
     }

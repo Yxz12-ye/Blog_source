@@ -51,7 +51,6 @@ useSchemaOrg(
     <div class="yun-post-right">
       <YunLayoutRight />
     </div>
-    
   </YunLayoutWrapper>
 </template>
 
@@ -59,6 +58,7 @@ useSchemaOrg(
 .custom-layout {
   max-width: 100% !important;
   gap: 2rem !important;
+  position: relative; /* 为粘性定位创建上下文 */
 }
 
 .main-content-expanded {
@@ -70,5 +70,20 @@ useSchemaOrg(
 
 .yun-post-right {
   padding-right: 1%;
+  position: sticky;
+  top: 20px; /* 距离顶部的距离，可以根据需要调整 */
+  align-self: flex-start; /* 确保元素在flex容器中顶部对齐 */
+  height: fit-content; /* 高度自适应内容 */
+  max-height: calc(100vh - 40px); /* 最大高度，防止超出视口 */
+  overflow-y: auto; /* 如果内容过多，允许滚动 */
+}
+
+/* 可选：添加响应式设计 */
+@media (max-width: 1200px) {
+  .yun-post-right {
+    position: static; /* 在小屏幕上取消固定定位 */
+    max-height: none;
+    margin-top: 20px;
+  }
 }
 </style>
