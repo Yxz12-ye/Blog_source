@@ -9,9 +9,6 @@ tags:
  - 生活
  - 未来
 codeHeightLimit: 300
-toc: false
-aside: false
-sidebar: false
 ---
 
 # 关于最近
