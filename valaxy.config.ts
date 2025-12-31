@@ -56,4 +56,8 @@ export default defineValaxyConfig<UserThemeConfig>({
   },
 
   unocss: { safelist },
+  components:{
+    // include:[/[\\/]src[\\/]components[\\/]/,
+    //   /[\\/]modified_content[\\/]/,]
+  }
 })
