@@ -177,6 +177,20 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/2026/about_rust_and_cxx': RouteRecordInfo<
+      '/posts/2026/about_rust_and_cxx',
+      '/posts/2026/about_rust_and_cxx',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/2026/cxx_basic': RouteRecordInfo<
+      '/posts/2026/cxx_basic',
+      '/posts/2026/cxx_basic',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/tags/': RouteRecordInfo<
       '/tags/',
       '/tags',
@@ -326,6 +340,18 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/2025/Unity_game_get_CodeRegistration_and_MetadataRegistration.md': {
       routes:
         | '/posts/2025/Unity_game_get_CodeRegistration_and_MetadataRegistration'
+      views:
+        | never
+    }
+    'pages/posts/2026/about_rust_and_cxx.md': {
+      routes:
+        | '/posts/2026/about_rust_and_cxx'
+      views:
+        | never
+    }
+    'pages/posts/2026/cxx_basic.md': {
+      routes:
+        | '/posts/2026/cxx_basic'
       views:
         | never
     }
