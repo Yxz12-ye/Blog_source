@@ -191,6 +191,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/2026/rime_and_wanxiang': RouteRecordInfo<
+      '/posts/2026/rime_and_wanxiang',
+      '/posts/2026/rime_and_wanxiang',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/tags/': RouteRecordInfo<
       '/tags/',
       '/tags',
@@ -352,6 +359,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/2026/cxx_basic.md': {
       routes:
         | '/posts/2026/cxx_basic'
+      views:
+        | never
+    }
+    'pages/posts/2026/rime_and_wanxiang.md': {
+      routes:
+        | '/posts/2026/rime_and_wanxiang'
       views:
         | never
     }
