@@ -191,9 +191,23 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/2026/explore_io': RouteRecordInfo<
+      '/posts/2026/explore_io',
+      '/posts/2026/explore_io',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/2026/rime_and_wanxiang': RouteRecordInfo<
       '/posts/2026/rime_and_wanxiang',
       '/posts/2026/rime_and_wanxiang',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/2026/spring_festival_2026': RouteRecordInfo<
+      '/posts/2026/spring_festival_2026',
+      '/posts/2026/spring_festival_2026',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -362,9 +376,21 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/2026/explore_io.md': {
+      routes:
+        | '/posts/2026/explore_io'
+      views:
+        | never
+    }
     'pages/posts/2026/rime_and_wanxiang.md': {
       routes:
         | '/posts/2026/rime_and_wanxiang'
+      views:
+        | never
+    }
+    'pages/posts/2026/spring_festival_2026.md': {
+      routes:
+        | '/posts/2026/spring_festival_2026'
       views:
         | never
     }

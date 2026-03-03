@@ -68,6 +68,13 @@ useSchemaOrg(
   padding-left: 5%;
 }
 
+/* 在小屏幕上取消左边距 */
+@media (max-width: 1200px) {
+  .main-content-expanded {
+    padding-left: 0;
+  }
+}
+
 .yun-post-right {
   padding-right: 1%;
   position: sticky;
