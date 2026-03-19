@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "valaxy": {
+      "source": "YunYouJun/valaxy",
+      "sourceType": "github",
+      "computedHash": "31d62b79de8df6e72691aff9c346db4050d4d90e5b1268dff0a7560cd7c45c9f"
+    }
+  }
+}

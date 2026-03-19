@@ -1,1 +1,63 @@
 // you can custom css vars here
+:root {
+  --bg-image-light: url(https://www.dmoe.cc/random.php);
+  --bg-image-dark: url(https://www.dmoe.cc/random.php);
+  --root-bg-opacity: 0.3;
+  --card-opacity: 0.6;
+}
+
+html, body {
+  background-image: var(--bg-image-light) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+}
+
+html.dark, html.dark body {
+  background-image: var(--bg-image-dark) !important;
+}
+
+/* Make container semi-transparent to show background */
+#valaxy-root {
+  background-color: rgba(255, 255, 255, var(--root-bg-opacity));
+  min-height: 100vh;
+
+  html.dark & {
+    background-color: rgba(18, 18, 18, var(--root-bg-opacity));
+  }
+}
+
+/* Transparentize all common components */
+.yun-post-card,
+.yun-sidebar-card,
+.yun-nav-menu,
+.yun-card,
+.yun-page-header,
+.yun-footer,
+.yun-tag-card,
+.yun-category-card,
+.v-doc-footer {
+  background-color: rgba(255, 255, 255, var(--card-opacity)) !important;
+}
+
+/* Also adjust post content area */
+.post-content {
+  background-color: rgba(255, 255, 255, var(--card-opacity)) !important;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+/* Adjust transparency in dark mode */
+html.dark .yun-post-card,
+html.dark .yun-sidebar-card,
+html.dark .yun-nav-menu,
+html.dark .yun-card,
+html.dark .yun-page-header,
+html.dark .yun-footer,
+html.dark .yun-tag-card,
+html.dark .yun-category-card,
+html.dark .post-content,
+html.dark .v-doc-footer {
+  background-color: rgba(30, 30, 30, var(--card-opacity)) !important;
+}
