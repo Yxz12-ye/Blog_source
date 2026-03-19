@@ -184,6 +184,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/2026/about_vibe_coding_1': RouteRecordInfo<
+      '/posts/2026/about_vibe_coding_1',
+      '/posts/2026/about_vibe_coding_1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/2026/cxx_basic': RouteRecordInfo<
       '/posts/2026/cxx_basic',
       '/posts/2026/cxx_basic',
@@ -367,6 +374,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/2026/about_rust_and_cxx.md': {
       routes:
         | '/posts/2026/about_rust_and_cxx'
+      views:
+        | never
+    }
+    'pages/posts/2026/about_vibe_coding_1.md': {
+      routes:
+        | '/posts/2026/about_vibe_coding_1'
       views:
         | never
     }
