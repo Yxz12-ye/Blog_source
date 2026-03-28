@@ -7,6 +7,7 @@
 }
 
 html, body {
+  background-color: var(--va-c-bg) !important;
   background-image: var(--bg-image-light) !important;
   background-size: cover !important;
   background-position: center !important;
@@ -60,4 +61,33 @@ html.dark .yun-category-card,
 html.dark .post-content,
 html.dark .v-doc-footer {
   background-color: rgba(30, 30, 30, var(--card-opacity)) !important;
+}
+
+/* Keep circle transition but avoid flash caused by transparent snapshots. */
+::view-transition-group(root),
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+  background-color: var(--va-c-bg);
+}
+
+::view-transition-old(root) {
+  z-index: 1 !important;
+}
+
+::view-transition-new(root) {
+  z-index: 9999 !important;
+}
+
+/* Preload both wallpapers to avoid first-toggle image swap flash. */
+body::before {
+  content: '';
+  position: fixed;
+  left: -9999px;
+  top: -9999px;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+  background-image: var(--bg-image-light), var(--bg-image-dark);
 }
