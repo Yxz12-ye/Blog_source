@@ -5,16 +5,16 @@ import fs from 'fs'
 export default defineSiteConfig({
   url: 'https://blog.yexkr.top/',
   lang: 'zh-CN',
-  title: '关于本站❤️',
+  title: 'Yexkr的博客',
   author: {
     name: 'Yexkr',
     avatar: 'https://pic1.imgdb.cn/item/683a6b0758cb8da5c81e771d.jpg',
     status: {
-      emoji: '🤔',
-      message: 'Thinking...',
+      emoji: '🥰',
+      message: 'Happy',
     }
   },
-  subtitle: '继服务器跑路, 电脑被格后重新搭建的博客',
+  subtitle: '请输入文本',
   description: '这里是我的个人博客, 文章在下方哦😚',
   social: [
     {
