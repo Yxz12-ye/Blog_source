@@ -234,6 +234,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/2026/Learning_Record': RouteRecordInfo<
+      '/posts/2026/Learning_Record',
+      '/posts/2026/Learning_Record',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/2026/rime_and_wanxiang': RouteRecordInfo<
       '/posts/2026/rime_and_wanxiang',
       '/posts/2026/rime_and_wanxiang',
@@ -495,6 +502,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/2026/explore_io.md': {
       routes:
         | '/posts/2026/explore_io'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/2026/Learning_Record.md': {
+      routes:
+        | '/posts/2026/Learning_Record'
       views:
         | never
       pathParamNames:
