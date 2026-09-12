@@ -31,3 +31,7 @@ public/atom.xml
 
 # valaxy rss
 public/feed.json
+
+# python
+__pycache__/
+*.pyc

@@ -1,0 +1,5 @@
+# create.py（博客模板生成器 TUI）的依赖
+# 安装：pip install -r requirements.txt
+
+textual>=1.0
+PyYAML>=6.0
