@@ -248,6 +248,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/2026/reverse_langtu_t88_hid_battery': RouteRecordInfo<
+      '/posts/2026/reverse_langtu_t88_hid_battery',
+      '/posts/2026/reverse_langtu_t88_hid_battery',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/2026/rime_and_wanxiang': RouteRecordInfo<
       '/posts/2026/rime_and_wanxiang',
       '/posts/2026/rime_and_wanxiang',
@@ -525,6 +532,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/2026/Learning_Record.md': {
       routes:
         | '/posts/2026/Learning_Record'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/2026/reverse_langtu_t88_hid_battery.md': {
+      routes:
+        | '/posts/2026/reverse_langtu_t88_hid_battery'
       views:
         | never
       pathParamNames:
